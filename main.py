@@ -36,9 +36,11 @@ myRaytracer.objects.append( Sphere(position=(0,-2,-7), radius =1.5, material = s
 myRaytracer.objects.append( Sphere(position=(0,0.5,-7), radius =1, material = snow))
 myRaytracer.objects.append( Sphere(position=(0,2,-7), radius =0.7, material = snow))
 
-# myRaytracer.objects.append( Sphere(position=(0,-1,-4), radius =0.15, material = black))
-# myRaytracer.objects.append( Sphere(position=(0,0,-4), radius =0.15, material = black))
-# myRaytracer.objects.append( Sphere(position=(0,0.5,-4), radius =0.15, material = black))
+
+#botones
+myRaytracer.objects.append( Sphere(position=(0,-1,-4), radius =0.15, material = black))
+myRaytracer.objects.append( Sphere(position=(0,0,-4), radius =0.15, material = black))
+myRaytracer.objects.append( Sphere(position=(0,0.5,-4), radius =0.15, material = black))
 
 
 #esferas de la cara
@@ -78,7 +80,7 @@ numofspheres = 30
 # myRaytracer.objects.append( Sphere(position=(-2,0,-5), radius =1.5, material = brick))
 
 # myRaytracer.Lights.append( AmbientLight(intensity = 0.1))
-myRaytracer.Lights.append (DirectionalLight(direction=(-0.9,-1,-5),intensity=0.4))
+myRaytracer.Lights.append (DirectionalLight(direction=(-0.9,-1,-2),intensity=0.4))
 
 
 # myRaytracer.Lights.append (PointLight(point = (0,0,-5),intensity=1, decayEffect=0.9) )
